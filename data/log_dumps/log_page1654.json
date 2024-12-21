@@ -1,0 +1,3951 @@
+{
+    "logs": [
+        {
+            "blue": {
+                "players": null,
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1105,
+            "format": "fours",
+            "league": null,
+            "logid": 3580909,
+            "map": "koth_product_final",
+            "matchid": null,
+            "red": {
+                "players": null,
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707801700,
+            "title": "Let There Be Scrims: CP. vs BLU",
+            "updated": 1707801700
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198053162347",
+                    "76561198439272360"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095697,
+            "duplicate_of": null,
+            "duration": 131,
+            "format": "ultiduo",
+            "league": null,
+            "logid": 3580908,
+            "map": "cp_metropolis_a3_undetai",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198403833291",
+                    "76561199128084374"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707800587,
+            "title": "na.serveme.tf #546467",
+            "updated": 1707800590
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198059701670",
+                    "76561198083920784",
+                    "76561198159375596",
+                    "76561198182862426",
+                    "76561198293079232",
+                    "76561199547047650"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1498,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580907,
+            "map": "cp_snakewater_final1",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198011579287",
+                    "76561198053070636",
+                    "76561198073097952",
+                    "76561198268234447",
+                    "76561198838132101",
+                    "76561198410190974"
+                ],
+                "rgl_teamid": null,
+                "score": 4,
+                "teamid": null
+            },
+            "time": 1707800401,
+            "title": "au.serveme.tf #4061",
+            "updated": 1707800401
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198056710131",
+                    "76561198131467867",
+                    "76561198132899671",
+                    "76561198150281353",
+                    "76561198180890982",
+                    "76561198229432644",
+                    "76561198304265800",
+                    "76561198396684569",
+                    "76561199136257223"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 822,
+            "format": "highlander",
+            "league": null,
+            "logid": 3580906,
+            "map": "koth_product_final",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198043632775",
+                    "76561198046775352",
+                    "76561198104327676",
+                    "76561198108359693",
+                    "76561198111259720",
+                    "76561198239598834",
+                    "76561198286147372",
+                    "76561198299604510",
+                    "76561199052021436"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707800848,
+            "title": "dolpy land 9v9: RED vs k67j45",
+            "updated": 1707800848
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198079853160",
+                    "76561198178457461",
+                    "76561198285232618",
+                    "76561198340623725",
+                    "76561198979494052",
+                    "76561198091712447"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095691,
+            "duplicate_of": null,
+            "duration": 944,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580904,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198044268609",
+                    "76561198122375328",
+                    "76561198839291253",
+                    "76561199162583201",
+                    "76561198141026844",
+                    "76561198885528098"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707799732,
+            "title": "na.serveme.tf #546434",
+            "updated": 1707799735
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198047231973",
+                    "76561198168931330",
+                    "76561197975235658"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095688,
+            "duplicate_of": null,
+            "duration": 957,
+            "format": "ultiduo",
+            "league": null,
+            "logid": 3580903,
+            "map": "ultiduo_baloo_v2",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198144911224",
+                    "76561198147772879"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707799559,
+            "title": "na.serveme.tf #546458",
+            "updated": 1707799561
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198082470182",
+                    "76561198088365519",
+                    "76561198115699456",
+                    "76561198120312532",
+                    "76561198141482152",
+                    "76561198368715869"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095687,
+            "duplicate_of": null,
+            "duration": 1061,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580902,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198037518646",
+                    "76561198120479533",
+                    "76561198305808710",
+                    "76561198391115491",
+                    "76561198847749278",
+                    "76561199106104716",
+                    "76561199228239346"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707799464,
+            "title": "na.serveme.tf #546439",
+            "updated": 1707799467
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197970669109",
+                    "76561198036448935",
+                    "76561198083063071",
+                    "76561198084582998",
+                    "76561198094788852",
+                    "76561198099843841"
+                ],
+                "rgl_teamid": null,
+                "score": 4,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1035,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580901,
+            "map": "koth_bagel_Rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198065575278",
+                    "76561198065591942",
+                    "76561198143627778",
+                    "76561198072411295",
+                    "76561198170627647",
+                    "76561198400517324"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707800210,
+            "title": "Team Fortress 2: RED vs BLU",
+            "updated": 1707800210
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198007148564",
+                    "76561198045405304",
+                    "76561198065241331",
+                    "76561198089852954",
+                    "76561198105357961",
+                    "76561198137084016"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095684,
+            "duplicate_of": null,
+            "duration": 1433,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580900,
+            "map": "koth_clearcut_b15d",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198047942359",
+                    "76561198066733892",
+                    "76561198069558815",
+                    "76561198094320477",
+                    "76561198208576396",
+                    "76561198335683534"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707799136,
+            "title": "na.serveme.tf #546449",
+            "updated": 1707799137
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198040082872",
+                    "76561198051957164",
+                    "76561198254056316",
+                    "76561198806014294",
+                    "76561199000969112",
+                    "76561199030081320"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095683,
+            "duplicate_of": null,
+            "duration": 2203,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580899,
+            "map": "cp_process_f12",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198043986718",
+                    "76561198089094470",
+                    "76561198118149530",
+                    "76561198121633820",
+                    "76561199109149949",
+                    "76561199112655950"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707799050,
+            "title": "na.serveme.tf #546436",
+            "updated": 1707799052
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198003219831",
+                    "76561198048395545",
+                    "76561198087472085",
+                    "76561198110046630",
+                    "76561198118776341",
+                    "76561198132068284",
+                    "76561198178049845",
+                    "76561198178638591",
+                    "76561198208657333"
+                ],
+                "rgl_teamid": 12011,
+                "score": 1,
+                "teamid": 10511
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 763,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580898,
+            "map": "\tkoth_proot_b6c-alt2",
+            "matchid": 25870,
+            "red": {
+                "players": [
+                    "76561198049425784",
+                    "76561198050618142",
+                    "76561198057522072",
+                    "76561198071248170",
+                    "76561198078992548",
+                    "76561198373341105",
+                    "76561198798931344",
+                    "76561198819564432",
+                    "76561198986534519"
+                ],
+                "rgl_teamid": 12137,
+                "score": 1,
+                "teamid": 4916
+            },
+            "time": 1707799031,
+            "title": "na.serveme.tf #546416",
+            "updated": 1707799031
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198043911582",
+                    "76561198090554798",
+                    "76561198121922413",
+                    "76561198131467867",
+                    "76561198195141221",
+                    "76561198273008469"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "demoid": 1095682,
+            "duplicate_of": null,
+            "duration": 371,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580897,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198058056249",
+                    "76561198068538473",
+                    "76561198078992548",
+                    "76561198099041747",
+                    "76561198398383076",
+                    "76561199013129784"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707799007,
+            "title": "na.serveme.tf #546453",
+            "updated": 1707799010
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197989352322",
+                    "76561197998911283",
+                    "76561198026080017",
+                    "76561198045745129",
+                    "76561198146343034",
+                    "76561198302366619"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1770,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580896,
+            "map": "cp_sunshine",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198028237442",
+                    "76561198068585202",
+                    "76561198126625623",
+                    "76561198248461754",
+                    "76561198328210524",
+                    "76561198414122318"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707800440,
+            "title": "swiftyservers.com: enuf vs BLU",
+            "updated": 1707800440
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197992467586",
+                    "76561198107575115",
+                    "76561198190170075",
+                    "76561198190868126",
+                    "76561198211308328",
+                    "76561198346216143"
+                ],
+                "rgl_teamid": null,
+                "score": 5,
+                "teamid": null
+            },
+            "demoid": 1095681,
+            "duplicate_of": null,
+            "duration": 1305,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580895,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198040529781",
+                    "76561198046911616",
+                    "76561198070224393",
+                    "76561198091666474",
+                    "76561198188722751",
+                    "76561198189667951"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707798974,
+            "title": "na.serveme.tf #546437",
+            "updated": 1707798974
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198051743607",
+                    "76561198148357768",
+                    "76561198154072948",
+                    "76561198119679320",
+                    "76561198120789856",
+                    "76561198169261069"
+                ],
+                "rgl_teamid": null,
+                "score": 4,
+                "teamid": null
+            },
+            "demoid": 1095694,
+            "duplicate_of": null,
+            "duration": 1729,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580894,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197962808987",
+                    "76561198045838834",
+                    "76561198068686187",
+                    "76561198172421881",
+                    "76561198236109724",
+                    "76561198847863686"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707800450,
+            "title": "swiftyservers.com: RED vs BLU",
+            "updated": 1707800450
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198047945178",
+                    "76561198077934343",
+                    "76561198079513105",
+                    "76561198093829623",
+                    "76561198094801861",
+                    "76561198869287223"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1883,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580893,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197960690085",
+                    "76561197976550673",
+                    "76561198017539604",
+                    "76561198096347625",
+                    "76561198109904512",
+                    "76561198310880776"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707800442,
+            "title": "takeba gaming: RED vs BLU",
+            "updated": 1707800442
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197982503303",
+                    "76561198079873281",
+                    "76561198086751156",
+                    "76561198112141269",
+                    "76561198124772544",
+                    "76561198343807287"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1478,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580892,
+            "map": "cp_process_f12",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198025210343",
+                    "76561198059318461",
+                    "76561198075931595",
+                    "76561198083712388",
+                    "76561198318260026",
+                    "76561198376383989",
+                    "76561199050447792"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707798869,
+            "title": "au.serveme.tf #4063",
+            "updated": 1707798869
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198049476046",
+                    "76561198066317089",
+                    "76561198105613110",
+                    "76561198109783729",
+                    "76561198168729608",
+                    "76561198428759980"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "demoid": 1095680,
+            "duplicate_of": null,
+            "duration": 1080,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580891,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198048882285",
+                    "76561198096738991",
+                    "76561198184900753",
+                    "76561198270963428",
+                    "76561198927517471",
+                    "76561198984612489"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707798835,
+            "title": "na.serveme.tf #546355",
+            "updated": 1707798837
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198039506482",
+                    "76561198072507309",
+                    "76561198092135570",
+                    "76561198124306308",
+                    "76561198382057084",
+                    "76561198447600537"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "demoid": 1095679,
+            "duplicate_of": null,
+            "duration": 987,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580890,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198079461770",
+                    "76561198106600085",
+                    "76561198124117349",
+                    "76561198130312064",
+                    "76561198395766307",
+                    "76561198830510901"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707798657,
+            "title": "na.serveme.tf #546451",
+            "updated": 1707798660
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198047231973",
+                    "76561197975235658"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095676,
+            "duplicate_of": null,
+            "duration": 901,
+            "format": "ultiduo",
+            "league": null,
+            "logid": 3580889,
+            "map": "ultiduo_baloo_v2",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198144911224",
+                    "76561198147772879"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707798531,
+            "title": "na.serveme.tf #546458",
+            "updated": 1707798533
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198079853160",
+                    "76561198178457461",
+                    "76561198285232618",
+                    "76561198340623725",
+                    "76561198979494052",
+                    "76561198091712447"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095675,
+            "duplicate_of": null,
+            "duration": 1484,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580887,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198038291026",
+                    "76561198122375328",
+                    "76561198839291253",
+                    "76561199162583201",
+                    "76561198141026844",
+                    "76561198885528098"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707798480,
+            "title": "na.serveme.tf #546434",
+            "updated": 1707798480
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198001486573",
+                    "76561198019206178",
+                    "76561198051365853",
+                    "76561198094512992",
+                    "76561198097422673",
+                    "76561198105529673",
+                    "76561198152744893",
+                    "76561198288491241",
+                    "76561199004451589"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095685,
+            "duplicate_of": null,
+            "duration": 1066,
+            "format": "highlander",
+            "league": null,
+            "logid": 3580886,
+            "map": "koth_ashville_final",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198041266286",
+                    "76561198042855616",
+                    "76561198048115471",
+                    "76561198048614515",
+                    "76561198108359693",
+                    "76561198118562391",
+                    "76561198169219561",
+                    "76561198206662424",
+                    "76561198218719943"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707799241,
+            "title": "DolphiN PUG Server: RED vs BLU",
+            "updated": 1707799241
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198018887052",
+                    "76561198048296897",
+                    "76561198053070636",
+                    "76561198159375596",
+                    "76561198182862426",
+                    "76561198268234447"
+                ],
+                "rgl_teamid": null,
+                "score": 5,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1260,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580885,
+            "map": "cp_process_f12",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198073097952",
+                    "76561198083920784",
+                    "76561198155425199",
+                    "76561198446283223",
+                    "76561198838132101",
+                    "76561198131181685"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707798345,
+            "title": "au.serveme.tf #4061",
+            "updated": 1707798345
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198043911582",
+                    "76561198090554798",
+                    "76561198121922413",
+                    "76561198131467867",
+                    "76561198195141221",
+                    "76561198273008469"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095674,
+            "duplicate_of": null,
+            "duration": 1911,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580884,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198058056249",
+                    "76561198068538473",
+                    "76561198078992548",
+                    "76561198099041747",
+                    "76561198165899125",
+                    "76561198398383076",
+                    "76561199013129784"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707798259,
+            "title": "na.serveme.tf #546453",
+            "updated": 1707798261
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198082470182",
+                    "76561198088365519",
+                    "76561198115699456",
+                    "76561198120312532",
+                    "76561198141482152",
+                    "76561198368715869"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095670,
+            "duplicate_of": null,
+            "duration": 1749,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580883,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198037518646",
+                    "76561198120479533",
+                    "76561198305808710",
+                    "76561198391115491",
+                    "76561198847749278",
+                    "76561199106104716"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707797923,
+            "title": "na.serveme.tf #546439",
+            "updated": 1707797924
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197970669109",
+                    "76561198036448935",
+                    "76561198083063071",
+                    "76561198084582998",
+                    "76561198094788852",
+                    "76561198099843841"
+                ],
+                "rgl_teamid": null,
+                "score": 5,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 739,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580882,
+            "map": "cp_snakewater_final1",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198065575278",
+                    "76561198065591942",
+                    "76561198072411295",
+                    "76561198143627778",
+                    "76561198170627647",
+                    "76561198400517324"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707798462,
+            "title": "Team Fortress 2: RED vs BLU",
+            "updated": 1707798462
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198031880431",
+                    "76561198048752760",
+                    "76561198056453091",
+                    "76561198060756881",
+                    "76561198062435183",
+                    "76561198074946673"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1361,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580881,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198017914809",
+                    "76561198085095003",
+                    "76561198116542339",
+                    "76561198124380112",
+                    "76561198210572481",
+                    "76561198271915998"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707798751,
+            "title": "foosball table: RED vs BLU",
+            "updated": 1707798751
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198048779989",
+                    "76561198115714484",
+                    "76561198116002030",
+                    "76561198132051047",
+                    "76561198136966751",
+                    "76561198209612007"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "demoid": 1095686,
+            "duplicate_of": null,
+            "duration": 1756,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580880,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198050163618",
+                    "76561198058753054",
+                    "76561198122603779",
+                    "76561198275390406",
+                    "76561198307012859",
+                    "76561198018691308"
+                ],
+                "rgl_teamid": null,
+                "score": 4,
+                "teamid": null
+            },
+            "time": 1707799429,
+            "title": "Scringus Dimension: xanax vs BLU",
+            "updated": 1707799436
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198071145942",
+                    "76561198121131167"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095671,
+            "duplicate_of": null,
+            "duration": 676,
+            "format": "ultiduo",
+            "league": null,
+            "logid": 3580879,
+            "map": "koth_product_final",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198199470514",
+                    "76561198421141804"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707797984,
+            "title": "Proskova Davai Highlander: viado vs BLU",
+            "updated": 1707797991
+        },
+        {
+            "blue": {
+                "players": null,
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1683,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580878,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": null,
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707798969,
+            "title": "Let There Be Scrims: RED vs BUGGIS",
+            "updated": 1707798969
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197989352322",
+                    "76561197998911283",
+                    "76561198026080017",
+                    "76561198045745129",
+                    "76561198146343034",
+                    "76561198302366619"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1128,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580877,
+            "map": "koth_bagel_rc6",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198028237442",
+                    "76561198068585202",
+                    "76561198126625623",
+                    "76561198248461754",
+                    "76561198328210524",
+                    "76561198414122318"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707798339,
+            "title": "swiftyservers.com: szn vs BLU",
+            "updated": 1707798339
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197975235658",
+                    "76561198147772879"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095666,
+            "duplicate_of": null,
+            "duration": 878,
+            "format": "ultiduo",
+            "league": null,
+            "logid": 3580876,
+            "map": "ultiduo_baloo_v2",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198047231973",
+                    "76561198144911224"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707797566,
+            "title": "na.serveme.tf #546458",
+            "updated": 1707797568
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198049476046",
+                    "76561198066317089",
+                    "76561198105613110",
+                    "76561198109783729",
+                    "76561198168729608",
+                    "76561198428759980"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095665,
+            "duplicate_of": null,
+            "duration": 1647,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580875,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198048882285",
+                    "76561198096738991",
+                    "76561198125947844",
+                    "76561198184900753",
+                    "76561198270963428",
+                    "76561198927517471",
+                    "76561198984612489"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707797554,
+            "title": "na.serveme.tf #546355",
+            "updated": 1707797555
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198044112464",
+                    "76561198073162375",
+                    "76561198083345384",
+                    "76561198085388962",
+                    "76561198292307127",
+                    "76561198109085507",
+                    "76561198116376450",
+                    "76561198043209046"
+                ],
+                "rgl_teamid": 12187,
+                "score": 1,
+                "teamid": 12187
+            },
+            "demoid": 1095663,
+            "duplicate_of": null,
+            "duration": 514,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580874,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26188,
+            "red": {
+                "players": [
+                    "76561198152117997",
+                    "76561198258218046",
+                    "76561198387408233",
+                    "76561198081298689",
+                    "76561198237032996",
+                    "76561198092306898",
+                    "76561198365201115",
+                    "76561198175630466",
+                    "76561198109756155",
+                    "76561199169558959"
+                ],
+                "rgl_teamid": 12235,
+                "score": 0,
+                "teamid": 11937
+            },
+            "time": 1707797472,
+            "title": "na.serveme.tf #546443",
+            "updated": 1707797655
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198069074737",
+                    "76561198122256369",
+                    "76561198134667434",
+                    "76561198067153390",
+                    "76561198042417277",
+                    "76561198000294453"
+                ],
+                "rgl_teamid": null,
+                "score": 5,
+                "teamid": null
+            },
+            "demoid": 1095662,
+            "duplicate_of": null,
+            "duration": 543,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580873,
+            "map": "cp_process_f12",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198039862815",
+                    "76561198085117729",
+                    "76561198286762763",
+                    "76561198801221949",
+                    "76561198110118542",
+                    "76561198082482283"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707797462,
+            "title": "na.serveme.tf #546447",
+            "updated": 1707797465
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198002195754",
+                    "76561198045246504",
+                    "76561198095584192",
+                    "76561198122666918",
+                    "76561198143312969",
+                    "76561198871148306"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1760,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580872,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198034154646",
+                    "76561198039582753",
+                    "76561198105878762",
+                    "76561198170381402",
+                    "76561198194381889",
+                    "76561198406266064"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707798341,
+            "title": "Arrakis: RED vs BLU",
+            "updated": 1707798341
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198039506482",
+                    "76561198072507309",
+                    "76561198092135570",
+                    "76561198124306308",
+                    "76561198382057084",
+                    "76561198447600537"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095661,
+            "duplicate_of": null,
+            "duration": 1102,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580871,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198079461770",
+                    "76561198106600085",
+                    "76561198124117349",
+                    "76561198130312064",
+                    "76561198395766307",
+                    "76561198830510901"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707797342,
+            "title": "na.serveme.tf #546451",
+            "updated": 1707797345
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198043610132",
+                    "76561198045405304",
+                    "76561198065241331",
+                    "76561198089852954",
+                    "76561198105357961",
+                    "76561198137084016"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095660,
+            "duplicate_of": null,
+            "duration": 1778,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580870,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198047942359",
+                    "76561198066733892",
+                    "76561198069558815",
+                    "76561198094320477",
+                    "76561198208576396",
+                    "76561198335683534"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707797308,
+            "title": "na.serveme.tf #546449",
+            "updated": 1707797309
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198040529781",
+                    "76561198046911616",
+                    "76561198070224393",
+                    "76561198091666474",
+                    "76561198188722751",
+                    "76561198189667951"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095659,
+            "duplicate_of": null,
+            "duration": 1107,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580868,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197992467586",
+                    "76561198033033884",
+                    "76561198107575115",
+                    "76561198190170075",
+                    "76561198190868126",
+                    "76561198211308328",
+                    "76561198346216143"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707797280,
+            "title": "na.serveme.tf #546437",
+            "updated": 1707797282
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198086635699",
+                    "76561198838757422"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 897,
+            "format": "ultiduo",
+            "league": null,
+            "logid": 3580867,
+            "map": "bball_royal",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198120440587",
+                    "76561198374390458"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707797258,
+            "title": "na.serveme.tf #546456",
+            "updated": 1707797258
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198151075646",
+                    "76561198200883819",
+                    "76561198309862028",
+                    "76561198336898193",
+                    "76561198391550027",
+                    "76561198400875852"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095667,
+            "duplicate_of": null,
+            "duration": 696,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580866,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197968530638",
+                    "76561197971152439",
+                    "76561198051005049",
+                    "76561198081971317",
+                    "76561198095121758",
+                    "76561198825633542"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707797619,
+            "title": "THE GRAPE CAVERN - Chicago: RED vs BLU",
+            "updated": 1707797624
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197999215868",
+                    "76561198037795549",
+                    "76561198073103529",
+                    "76561198097024799",
+                    "76561198177918031",
+                    "76561198268476001"
+                ],
+                "rgl_teamid": null,
+                "score": 5,
+                "teamid": null
+            },
+            "demoid": 1095658,
+            "duplicate_of": null,
+            "duration": 1587,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580864,
+            "map": "cp_gullywash_final1",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198015327889",
+                    "76561198050681704",
+                    "76561198074083485",
+                    "76561198107488755",
+                    "76561198114603745",
+                    "76561199074979299"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707797157,
+            "title": "TF2Center Lobby #1258281",
+            "updated": 1707797162
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198010743348",
+                    "76561198158643171",
+                    "76561198262061568",
+                    "76561198346478792",
+                    "76561198879351372",
+                    "76561198038698274"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 941,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580863,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198068266632",
+                    "76561198069954956",
+                    "76561198085439508",
+                    "76561198160455073",
+                    "76561198406252824",
+                    "76561199241226268"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707797729,
+            "title": "Cuake Con: RED vs cl_0.4",
+            "updated": 1707797729
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198041017977",
+                    "76561198300888156",
+                    "76561198306912450",
+                    "76561198394787270",
+                    "76561198400381132",
+                    "76561198803095781"
+                ],
+                "rgl_teamid": null,
+                "score": 5,
+                "teamid": null
+            },
+            "demoid": 1095669,
+            "duplicate_of": null,
+            "duration": 793,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580862,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198062801366",
+                    "76561198091840968",
+                    "76561198116706099",
+                    "76561198126252583",
+                    "76561198307516731",
+                    "76561199023495206"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707797785,
+            "title": ".gb: RED vs BLU",
+            "updated": 1707797790
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198041460359",
+                    "76561198229432644",
+                    "76561198388473090",
+                    "76561198815644949",
+                    "76561198833085585",
+                    "76561198864748007"
+                ],
+                "rgl_teamid": null,
+                "score": 5,
+                "teamid": null
+            },
+            "demoid": 1095655,
+            "duplicate_of": null,
+            "duration": 491,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580861,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198142958288",
+                    "76561198281999872",
+                    "76561198282424652",
+                    "76561198364706359",
+                    "76561198813516435",
+                    "76561198121019614"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707796906,
+            "title": "na.serveme.tf #546406",
+            "updated": 1707796908
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198079853160",
+                    "76561198178457461",
+                    "76561198285232618",
+                    "76561198340623725",
+                    "76561198979494052",
+                    "76561199062024437",
+                    "76561198091712447"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095654,
+            "duplicate_of": null,
+            "duration": 1178,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580860,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198038291026",
+                    "76561198122375328",
+                    "76561198839291253",
+                    "76561199162583201",
+                    "76561198141026844",
+                    "76561198885528098"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707796848,
+            "title": "na.serveme.tf #546434",
+            "updated": 1707796848
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198044112464",
+                    "76561198073162375",
+                    "76561198083345384",
+                    "76561198085388962",
+                    "76561198292307127",
+                    "76561198109085507",
+                    "76561198116376450",
+                    "76561198043209046",
+                    "76561199169558959"
+                ],
+                "rgl_teamid": 12187,
+                "score": 1,
+                "teamid": 12187
+            },
+            "demoid": 1095652,
+            "duplicate_of": null,
+            "duration": 1043,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580859,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26188,
+            "red": {
+                "players": [
+                    "76561198152117997",
+                    "76561198258218046",
+                    "76561198387408233",
+                    "76561198081298689",
+                    "76561198237032996",
+                    "76561198092306898",
+                    "76561198365201115",
+                    "76561198175630466",
+                    "76561198109756155"
+                ],
+                "rgl_teamid": 12235,
+                "score": 2,
+                "teamid": 11937
+            },
+            "time": 1707796837,
+            "title": "na.serveme.tf #546443",
+            "updated": 1707797655
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198048779989",
+                    "76561198115714484",
+                    "76561198116002030",
+                    "76561198132051047",
+                    "76561198136966751",
+                    "76561198209612007"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095664,
+            "duplicate_of": null,
+            "duration": 969,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580858,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198018691308",
+                    "76561198050163618",
+                    "76561198058753054",
+                    "76561198122603779",
+                    "76561198275390406",
+                    "76561198307012859"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707797495,
+            "title": "Scringus Dimension: xanax vs cl_0.2",
+            "updated": 1707797502
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198051743607",
+                    "76561198119679320",
+                    "76561198120789856",
+                    "76561198148357768",
+                    "76561198154072948",
+                    "76561198169261069"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095673,
+            "duplicate_of": null,
+            "duration": 1749,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580857,
+            "map": "cp_snakewater_final1",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197962808987",
+                    "76561198045838834",
+                    "76561198068686187",
+                    "76561198172421881",
+                    "76561198236109724",
+                    "76561198847863686"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707798215,
+            "title": "swiftyservers.com: RED vs BLU",
+            "updated": 1707798222
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198200883819",
+                    "76561198309862028",
+                    "76561198336898193",
+                    "76561198391550027",
+                    "76561198400875852",
+                    "76561198151075646"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095653,
+            "duplicate_of": null,
+            "duration": 575,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580856,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197968530638",
+                    "76561197971152439",
+                    "76561198051005049",
+                    "76561198081971317",
+                    "76561198095121758",
+                    "76561198825633542"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707796835,
+            "title": "THE GRAPE CAVERN - Chicago: RED vs BLU",
+            "updated": 1707796835
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198073097952",
+                    "76561198155425199",
+                    "76561198183882969",
+                    "76561198838132101",
+                    "76561199388029472",
+                    "76561199547047650"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1514,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580855,
+            "map": "cp_sunshine",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198018887052",
+                    "76561198053070636",
+                    "76561198268234447",
+                    "76561198293079232",
+                    "76561198311080565",
+                    "76561198410190974"
+                ],
+                "rgl_teamid": null,
+                "score": 4,
+                "teamid": null
+            },
+            "time": 1707796448,
+            "title": "au.serveme.tf #4061",
+            "updated": 1707796448
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198047945178",
+                    "76561198077934343",
+                    "76561198079513105",
+                    "76561198093829623",
+                    "76561198094801861",
+                    "76561198869287223"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1729,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580853,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197960690085",
+                    "76561197976550673",
+                    "76561198017539604",
+                    "76561198096347625",
+                    "76561198109904512",
+                    "76561198310880776"
+                ],
+                "rgl_teamid": null,
+                "score": 4,
+                "teamid": null
+            },
+            "time": 1707798053,
+            "title": "takeba gaming: RED vs BLU",
+            "updated": 1707798053
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198017275707",
+                    "76561198167477976",
+                    "76561198200600937",
+                    "76561199006784896",
+                    "76561198229865096",
+                    "76561198199785353",
+                    "76561198194818415",
+                    "76561198114928567",
+                    "76561198344471115"
+                ],
+                "rgl_teamid": 12296,
+                "score": 0,
+                "teamid": 11528
+            },
+            "demoid": 1095647,
+            "duplicate_of": null,
+            "duration": 682,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580852,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26177,
+            "red": {
+                "players": [
+                    "76561198119543612",
+                    "76561198255650013",
+                    "76561198867869986",
+                    "76561198880489019",
+                    "76561198132963002",
+                    "76561198397662124",
+                    "76561198109648603",
+                    "76561199379760417",
+                    "76561198001362410"
+                ],
+                "rgl_teamid": 12079,
+                "score": 2,
+                "teamid": 12079
+            },
+            "time": 1707796383,
+            "title": "na.serveme.tf #546427",
+            "updated": 1707796649
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197970669109",
+                    "76561198036448935",
+                    "76561198083063071",
+                    "76561198084582998",
+                    "76561198094788852",
+                    "76561198099843841"
+                ],
+                "rgl_teamid": null,
+                "score": 5,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 962,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580851,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198065575278",
+                    "76561198065591942",
+                    "76561198143627778",
+                    "76561198170627647",
+                    "76561198400517324",
+                    "76561198072411295"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707797318,
+            "title": "Team Fortress 2: RED vs bald",
+            "updated": 1707797318
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198069074737",
+                    "76561198122256369",
+                    "76561198134667434",
+                    "76561198067153390",
+                    "76561198042417277",
+                    "76561198000294453"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095646,
+            "duplicate_of": null,
+            "duration": 692,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580850,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198039862815",
+                    "76561198085117729",
+                    "76561198286762763",
+                    "76561198801221949",
+                    "76561198110118542",
+                    "76561198082482283"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707796362,
+            "title": "na.serveme.tf #546447",
+            "updated": 1707796364
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198031880431",
+                    "76561198048752760",
+                    "76561198056453091",
+                    "76561198060756881",
+                    "76561198062435183",
+                    "76561198074946673"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 839,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580849,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198017914809",
+                    "76561198085095003",
+                    "76561198116542339",
+                    "76561198124380112",
+                    "76561198210572481",
+                    "76561198271915998"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707796928,
+            "title": "foosball table: RED vs BLU",
+            "updated": 1707796928
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198079978485",
+                    "76561198087251749",
+                    "76561198101349693",
+                    "76561198139606552",
+                    "76561198821775083",
+                    "76561198874506663"
+                ],
+                "rgl_teamid": 12183,
+                "score": 2,
+                "teamid": 11849
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 3377,
+            "format": "sixes",
+            "league": "rgl",
+            "logid": 3580848,
+            "map": "cp_sunshine",
+            "matchid": 26165,
+            "red": {
+                "players": [
+                    "76561198062627931",
+                    "76561198064751568",
+                    "76561198069068827",
+                    "76561198125373001",
+                    "76561198167075606",
+                    "76561198216487540"
+                ],
+                "rgl_teamid": 12323,
+                "score": 4,
+                "teamid": 12323
+            },
+            "time": 1707799995,
+            "title": "SuperZAZA: RED vs BLU",
+            "updated": 1707800249
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198041460359",
+                    "76561198229432644",
+                    "76561198388473090",
+                    "76561198815644949",
+                    "76561198833085585",
+                    "76561198864748007"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095644,
+            "duplicate_of": null,
+            "duration": 906,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580845,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198142958288",
+                    "76561198281999872",
+                    "76561198282424652",
+                    "76561198364706359",
+                    "76561198813516435",
+                    "76561198121019614"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707796130,
+            "title": "na.serveme.tf #546406",
+            "updated": 1707796132
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198068070211",
+                    "76561198068401396",
+                    "76561198093983903",
+                    "76561198108359693",
+                    "76561198111925708",
+                    "76561198118562391",
+                    "76561198152744893",
+                    "76561198206662424",
+                    "76561198211308328"
+                ],
+                "rgl_teamid": 12184,
+                "score": 1,
+                "teamid": 11861
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 364,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580844,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 25829,
+            "red": {
+                "players": [
+                    "76561198046251318",
+                    "76561198048965902",
+                    "76561198065040540",
+                    "76561198078731479",
+                    "76561198090337076",
+                    "76561198145896898",
+                    "76561198277979851",
+                    "76561198288491241",
+                    "76561198311004039"
+                ],
+                "rgl_teamid": 12243,
+                "score": 0,
+                "teamid": 5597
+            },
+            "time": 1707796068,
+            "title": "the new rib server: RED vs BLU",
+            "updated": 1707796343
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197989352322",
+                    "76561197998911283",
+                    "76561198026080017",
+                    "76561198045745129",
+                    "76561198146343034",
+                    "76561198302366619"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1230,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580843,
+            "map": "koth_bagel_rc6",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198028237442",
+                    "76561198068585202",
+                    "76561198126625623",
+                    "76561198248461754",
+                    "76561198328210524",
+                    "76561198414122318"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707796855,
+            "title": "swiftyservers.com: szn vs BLU",
+            "updated": 1707796855
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198003219831",
+                    "76561198048395545",
+                    "76561198087472085",
+                    "76561198110046630",
+                    "76561198118776341",
+                    "76561198132068284",
+                    "76561198178049845",
+                    "76561198178638591",
+                    "76561198208657333"
+                ],
+                "rgl_teamid": 12011,
+                "score": 1,
+                "teamid": 10511
+            },
+            "demoid": 1095639,
+            "duplicate_of": null,
+            "duration": 1196,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580842,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 25870,
+            "red": {
+                "players": [
+                    "76561198049425784",
+                    "76561198050618142",
+                    "76561198057522072",
+                    "76561198071248170",
+                    "76561198078992548",
+                    "76561198373341105",
+                    "76561198798931344",
+                    "76561198819564432",
+                    "76561198986534519"
+                ],
+                "rgl_teamid": 12137,
+                "score": 2,
+                "teamid": 4916
+            },
+            "time": 1707795963,
+            "title": "na.serveme.tf #546416",
+            "updated": 1707797236
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198062801366",
+                    "76561198091840968",
+                    "76561198116706099",
+                    "76561198126252583",
+                    "76561198307516731",
+                    "76561199023495206"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095650,
+            "duplicate_of": null,
+            "duration": 1034,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580841,
+            "map": "koth_bagel_rc5",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198041017977",
+                    "76561198300888156",
+                    "76561198306912450",
+                    "76561198394787270",
+                    "76561198400381132",
+                    "76561198446283223",
+                    "76561198803095781"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707796691,
+            "title": ".gb: RED vs BLU",
+            "updated": 1707796695
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198010743348",
+                    "76561198158643171",
+                    "76561198262061568",
+                    "76561198346478792",
+                    "76561198879351372",
+                    "76561198038698274"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1009,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580840,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198068266632",
+                    "76561198069954956",
+                    "76561198085439508",
+                    "76561198160455073",
+                    "76561198406252824",
+                    "76561199241226268"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707796549,
+            "title": "Cuake Con: RED vs cl_0.3",
+            "updated": 1707796549
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198151075646",
+                    "76561198200883819",
+                    "76561198309862028",
+                    "76561198336898193",
+                    "76561198391550027",
+                    "76561198400875852"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095645,
+            "duplicate_of": null,
+            "duration": 605,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580839,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197968530638",
+                    "76561197971152439",
+                    "76561198051005049",
+                    "76561198081971317",
+                    "76561198095121758",
+                    "76561198825633542"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707796180,
+            "title": "THE GRAPE CAVERN - Chicago: RED vs BLU",
+            "updated": 1707796186
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198002195754",
+                    "76561198045246504",
+                    "76561198095584192",
+                    "76561198122666918",
+                    "76561198143312969",
+                    "76561198871148306"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 682,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580838,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198034154646",
+                    "76561198039582753",
+                    "76561198105878762",
+                    "76561198170381402",
+                    "76561198194381889",
+                    "76561198406266064"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707796246,
+            "title": "Arrakis: RED vs BLU",
+            "updated": 1707796246
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198048779989",
+                    "76561198115714484",
+                    "76561198116002030",
+                    "76561198132051047",
+                    "76561198136966751",
+                    "76561198209612007"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095648,
+            "duplicate_of": null,
+            "duration": 951,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580837,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198018691308",
+                    "76561198050163618",
+                    "76561198058753054",
+                    "76561198122603779",
+                    "76561198275390406",
+                    "76561198307012859"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707796463,
+            "title": "Scringus Dimension: xanax vs cl_0.2",
+            "updated": 1707796464
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198040529781",
+                    "76561198046911616",
+                    "76561198070224393",
+                    "76561198091666474",
+                    "76561198188722751",
+                    "76561198189667951"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "demoid": 1095636,
+            "duplicate_of": null,
+            "duration": 1483,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580836,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197992467586",
+                    "76561198033033884",
+                    "76561198107575115",
+                    "76561198190170075",
+                    "76561198190868126",
+                    "76561198346216143"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707795866,
+            "title": "na.serveme.tf #546437",
+            "updated": 1707795867
+        },
+        {
+            "blue": {
+                "players": null,
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1486,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580835,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": null,
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707797015,
+            "title": "Let There Be Scrims: RED vs BUGGIS",
+            "updated": 1707797015
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197964157694",
+                    "76561197987805095",
+                    "76561198130283688",
+                    "76561198137126564",
+                    "76561198204224427",
+                    "76561198322448472",
+                    "76561198387717978",
+                    "76561198410302974",
+                    "76561198123514896"
+                ],
+                "rgl_teamid": 12291,
+                "score": 0,
+                "teamid": 12291
+            },
+            "demoid": 1095635,
+            "duplicate_of": null,
+            "duration": 334,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580834,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26167,
+            "red": {
+                "players": [
+                    "76561198026488532",
+                    "76561198428584717",
+                    "76561199013129784",
+                    "76561198313121580",
+                    "76561198331286076",
+                    "76561197997843710",
+                    "76561198427444878",
+                    "76561198271960557",
+                    "76561198848879603"
+                ],
+                "rgl_teamid": 12264,
+                "score": 1,
+                "teamid": 12264
+            },
+            "time": 1707795770,
+            "title": "na.serveme.tf #546369",
+            "updated": 1707796052
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198059310510",
+                    "76561198079451856",
+                    "76561198193537542",
+                    "76561198243188782",
+                    "76561198408844655",
+                    "76561198244122486"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095634,
+            "duplicate_of": null,
+            "duration": 871,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580833,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198023998057",
+                    "76561198054084181",
+                    "76561198070682129",
+                    "76561198098994983",
+                    "76561198112360934",
+                    "76561198119068115"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707795731,
+            "title": "na.serveme.tf #546445",
+            "updated": 1707795734
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198017275707",
+                    "76561198167477976",
+                    "76561198200600937",
+                    "76561199006784896",
+                    "76561198229865096",
+                    "76561198199785353",
+                    "76561198194818415",
+                    "76561198114928567",
+                    "76561198344471115"
+                ],
+                "rgl_teamid": 12296,
+                "score": 2,
+                "teamid": 11528
+            },
+            "demoid": 1095633,
+            "duplicate_of": null,
+            "duration": 1030,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580830,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26177,
+            "red": {
+                "players": [
+                    "76561198119543612",
+                    "76561198255650013",
+                    "76561198867869986",
+                    "76561198880489019",
+                    "76561198132963002",
+                    "76561198397662124",
+                    "76561198109648603",
+                    "76561199379760417",
+                    "76561198001362410"
+                ],
+                "rgl_teamid": 12079,
+                "score": 1,
+                "teamid": 12079
+            },
+            "time": 1707795511,
+            "title": "na.serveme.tf #546427",
+            "updated": 1707796649
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198062627931",
+                    "76561198064751568",
+                    "76561198069068827",
+                    "76561198125373001",
+                    "76561198167075606",
+                    "76561198216487540"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095632,
+            "duplicate_of": null,
+            "duration": 859,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580829,
+            "map": "cp_sunshine",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198043986718",
+                    "76561198089094470",
+                    "76561198118149530",
+                    "76561198121633820",
+                    "76561199109149949",
+                    "76561199112655950"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707795503,
+            "title": "na.serveme.tf #546436",
+            "updated": 1707795506
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198022636756",
+                    "76561198025267071",
+                    "76561198051003187",
+                    "76561198064271337",
+                    "76561198136593625",
+                    "76561198142893003",
+                    "76561198170063974",
+                    "76561198214584609",
+                    "76561198374769204"
+                ],
+                "rgl_teamid": 12256,
+                "score": 1,
+                "teamid": 12256
+            },
+            "demoid": 1095630,
+            "duplicate_of": null,
+            "duration": 830,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580827,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26181,
+            "red": {
+                "players": [
+                    "76561198016095410",
+                    "76561198034620567",
+                    "76561198042209721",
+                    "76561198058753054",
+                    "76561198095923905",
+                    "76561198105613110",
+                    "76561198137641129",
+                    "76561198977212642",
+                    "76561199231993886"
+                ],
+                "rgl_teamid": 12024,
+                "score": 1,
+                "teamid": 12024
+            },
+            "time": 1707795432,
+            "title": "na.serveme.tf #546365",
+            "updated": 1707795455
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198013732450",
+                    "76561198040773153",
+                    "76561198048752760",
+                    "76561198081827165",
+                    "76561198119581111",
+                    "76561198145921847",
+                    "76561198178457461",
+                    "76561198195764728",
+                    "76561198291976960",
+                    "76561198394787270"
+                ],
+                "rgl_teamid": 12031,
+                "score": 1,
+                "teamid": 12031
+            },
+            "demoid": 1095640,
+            "duplicate_of": null,
+            "duration": 783,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580826,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 25869,
+            "red": {
+                "players": [
+                    "76561198058349742",
+                    "76561198069917277",
+                    "76561198073579100",
+                    "76561198084660530",
+                    "76561198106600085",
+                    "76561198134001235",
+                    "76561198218131923",
+                    "76561198382489728",
+                    "76561199089196165"
+                ],
+                "rgl_teamid": 12025,
+                "score": 1,
+                "teamid": 12025
+            },
+            "time": 1707796023,
+            "title": "Hall of Fyr: Dark vs LU",
+            "updated": 1707796356
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198009590555",
+                    "76561198019155825",
+                    "76561198036433950",
+                    "76561198081980837",
+                    "76561198094289091",
+                    "76561198122658119",
+                    "76561198176547317",
+                    "76561199143903489",
+                    "76561199477395799"
+                ],
+                "rgl_teamid": 12310,
+                "score": 1,
+                "teamid": 12310
+            },
+            "demoid": 1095629,
+            "duplicate_of": null,
+            "duration": 439,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580825,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26186,
+            "red": {
+                "players": [
+                    "76561197984047460",
+                    "76561198025202462",
+                    "76561198056547335",
+                    "76561198065349185",
+                    "76561198087562051",
+                    "76561198945464014",
+                    "76561198147441830",
+                    "76561197991437061",
+                    "76561198258997104"
+                ],
+                "rgl_teamid": 12143,
+                "score": 0,
+                "teamid": 12143
+            },
+            "time": 1707795404,
+            "title": "na.serveme.tf #546325",
+            "updated": 1707795457
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198082470182",
+                    "76561198088365519",
+                    "76561198115699456",
+                    "76561198120312532",
+                    "76561198141482152",
+                    "76561198368715869"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095628,
+            "duplicate_of": null,
+            "duration": 953,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580824,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198037518646",
+                    "76561198120479533",
+                    "76561198305808710",
+                    "76561198391115491",
+                    "76561198847749278",
+                    "76561199106104716"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "time": 1707795375,
+            "title": "na.serveme.tf #546439",
+            "updated": 1707795376
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198281278725",
+                    "76561198148480134",
+                    "76561198318410979",
+                    "76561199476062624",
+                    "76561198072998203",
+                    "76561199052866326"
+                ],
+                "rgl_teamid": null,
+                "score": 4,
+                "teamid": null
+            },
+            "demoid": 1095627,
+            "duplicate_of": null,
+            "duration": 1756,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580821,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198052382315",
+                    "76561198234623008",
+                    "76561198815454092",
+                    "76561198294657461",
+                    "76561199575230318",
+                    "76561198172935563"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707795222,
+            "title": "na.serveme.tf #546426",
+            "updated": 1707795224
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198099968042",
+                    "76561198139174433",
+                    "76561198142979812",
+                    "76561198181521913",
+                    "76561198241082898",
+                    "76561199158237868"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095624,
+            "duplicate_of": null,
+            "duration": 863,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580820,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198087422193",
+                    "76561198110975683",
+                    "76561198161964496",
+                    "76561198838054669",
+                    "76561199136910514",
+                    "76561198184092033"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707795150,
+            "title": "na.serveme.tf #546435",
+            "updated": 1707795152
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198044112464",
+                    "76561198073162375",
+                    "76561198083345384",
+                    "76561198085388962",
+                    "76561198292307127",
+                    "76561198109085507",
+                    "76561198116376450",
+                    "76561198043209046",
+                    "76561199169558959"
+                ],
+                "rgl_teamid": 12187,
+                "score": 2,
+                "teamid": 12187
+            },
+            "demoid": 1095623,
+            "duplicate_of": null,
+            "duration": 620,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580819,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26188,
+            "red": {
+                "players": [
+                    "76561198152117997",
+                    "76561198258218046",
+                    "76561198387408233",
+                    "76561198081298689",
+                    "76561198237032996",
+                    "76561198092306898",
+                    "76561198365201115",
+                    "76561198175630466",
+                    "76561198109756155"
+                ],
+                "rgl_teamid": 12235,
+                "score": 0,
+                "teamid": 11937
+            },
+            "time": 1707795127,
+            "title": "na.serveme.tf #546443",
+            "updated": 1707797655
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197964157694",
+                    "76561197987805095",
+                    "76561198130283688",
+                    "76561198137126564",
+                    "76561198204224427",
+                    "76561198322448472",
+                    "76561198387717978",
+                    "76561198410302974",
+                    "76561198123514896"
+                ],
+                "rgl_teamid": 12291,
+                "score": 1,
+                "teamid": 12291
+            },
+            "demoid": 1095622,
+            "duplicate_of": null,
+            "duration": 1033,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580818,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26167,
+            "red": {
+                "players": [
+                    "76561198026488532",
+                    "76561198428584717",
+                    "76561199013129784",
+                    "76561198313121580",
+                    "76561198331286076",
+                    "76561197997843710",
+                    "76561198427444878",
+                    "76561198271960557",
+                    "76561198848879603"
+                ],
+                "rgl_teamid": 12264,
+                "score": 2,
+                "teamid": 12264
+            },
+            "time": 1707795092,
+            "title": "na.serveme.tf #546369",
+            "updated": 1707796052
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198151075646",
+                    "76561198200883819",
+                    "76561198309862028",
+                    "76561198336898193",
+                    "76561198391550027",
+                    "76561198400875852"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095620,
+            "duplicate_of": null,
+            "duration": 404,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580817,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198048882285",
+                    "76561198096738991",
+                    "76561198125947844",
+                    "76561198184900753",
+                    "76561198270963428",
+                    "76561198927517471"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707795051,
+            "title": "na.serveme.tf #546364",
+            "updated": 1707795056
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198048779989",
+                    "76561198115714484",
+                    "76561198116002030",
+                    "76561198132051047",
+                    "76561198136966751",
+                    "76561198209612007"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 358,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580816,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197968530638",
+                    "76561197971152439",
+                    "76561198051005049",
+                    "76561198081971317",
+                    "76561198095121758",
+                    "76561198825633542"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707795055,
+            "title": "THE GRAPE CAVERN - Chicago: RED vs BLU",
+            "updated": 1707795055
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198040082872",
+                    "76561198051957164",
+                    "76561198254056316",
+                    "76561198806014294",
+                    "76561199000969112",
+                    "76561199030081320"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095619,
+            "duplicate_of": null,
+            "duration": 997,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580815,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198047942359",
+                    "76561198066733892",
+                    "76561198069558815",
+                    "76561198094320477",
+                    "76561198208576396",
+                    "76561198335683534"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707794971,
+            "title": "na.serveme.tf #546351",
+            "updated": 1707794973
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198069074737",
+                    "76561198122256369",
+                    "76561198134667434",
+                    "76561198067153390",
+                    "76561198042417277",
+                    "76561198000294453"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095618,
+            "duplicate_of": null,
+            "duration": 983,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580814,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198044912323",
+                    "76561198239132128",
+                    "76561198330484179",
+                    "76561198397296186",
+                    "76561198435055904",
+                    "76561198442392033"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707794953,
+            "title": "na.serveme.tf #546433",
+            "updated": 1707794955
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198076925478",
+                    "76561199111232575",
+                    "76561199270306521",
+                    "76561198273488925",
+                    "76561198049692921",
+                    "76561198148873693"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095617,
+            "duplicate_of": null,
+            "duration": 1107,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580813,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198068174830",
+                    "76561198108292940",
+                    "76561198092987744",
+                    "76561198107143047",
+                    "76561198102985192",
+                    "76561198163010730"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707794820,
+            "title": "na.serveme.tf #546326",
+            "updated": 1707794822
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198002195754",
+                    "76561198045246504",
+                    "76561198095584192",
+                    "76561198122666918",
+                    "76561198143312969",
+                    "76561198871148306"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": 1095621,
+            "duplicate_of": null,
+            "duration": 553,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580811,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198068266632",
+                    "76561198069954956",
+                    "76561198085439508",
+                    "76561198160455073",
+                    "76561198406252824",
+                    "76561199241226268"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707795040,
+            "title": "\ud83c\udf2d The Hotdog Stand: RED vs B4NDIT",
+            "updated": 1707795086
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198010370396",
+                    "76561198035584760",
+                    "76561198042619246",
+                    "76561198049086812",
+                    "76561198064006004",
+                    "76561198078381913",
+                    "76561198078395002",
+                    "76561198132364510",
+                    "76561198155872356"
+                ],
+                "rgl_teamid": 12027,
+                "score": 1,
+                "teamid": 7303
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 419,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580809,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 25831,
+            "red": {
+                "players": [
+                    "76561198001256381",
+                    "76561198028658527",
+                    "76561198042831480",
+                    "76561198048925904",
+                    "76561198061979880",
+                    "76561198163402355",
+                    "76561198167207112",
+                    "76561198177893343",
+                    "76561198939558155"
+                ],
+                "rgl_teamid": 12234,
+                "score": 0,
+                "teamid": 10824
+            },
+            "time": 1707794759,
+            "title": "yarp: RED vs heep",
+            "updated": 1707795124
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198059310510",
+                    "76561198079451856",
+                    "76561198193537542",
+                    "76561198243188782",
+                    "76561198408844655",
+                    "76561198244122486"
+                ],
+                "rgl_teamid": null,
+                "score": 4,
+                "teamid": null
+            },
+            "demoid": 1095615,
+            "duplicate_of": null,
+            "duration": 528,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580808,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198023998057",
+                    "76561198054084181",
+                    "76561198070682129",
+                    "76561198098994983",
+                    "76561198112360934",
+                    "76561198119068115"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707794702,
+            "title": "na.serveme.tf #546432",
+            "updated": 1707794705
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198079978485",
+                    "76561198087251749",
+                    "76561198101349693",
+                    "76561198139606552",
+                    "76561198821775083",
+                    "76561198874506663"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 780,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580807,
+            "map": "koth_clearcut_b15d",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198043610132",
+                    "76561198045405304",
+                    "76561198065241331",
+                    "76561198089852954",
+                    "76561198105357961",
+                    "76561198137084016"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707795132,
+            "title": "SuperZAZA: RED vs BLU",
+            "updated": 1707795132
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198056281663",
+                    "76561198085117729",
+                    "76561198092063256",
+                    "76561198119008767",
+                    "76561198174118293",
+                    "76561198286762763",
+                    "76561198091892959",
+                    "76561198801221949",
+                    "76561198110118542"
+                ],
+                "rgl_teamid": 12294,
+                "score": 1,
+                "teamid": 11882
+            },
+            "demoid": 1095612,
+            "duplicate_of": null,
+            "duration": 1040,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580806,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26195,
+            "red": {
+                "players": [
+                    "76561198194491426",
+                    "76561198280047870",
+                    "76561198449060373",
+                    "76561199031612530",
+                    "76561199092506819",
+                    "76561198085304380",
+                    "76561198069122042",
+                    "76561198872227078",
+                    "76561197970013313"
+                ],
+                "rgl_teamid": 12134,
+                "score": 2,
+                "teamid": 11898
+            },
+            "time": 1707794629,
+            "title": "na.serveme.tf #546415",
+            "updated": 1707796378
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198013427289",
+                    "76561198155180335",
+                    "76561198157704627",
+                    "76561198202237540",
+                    "76561198388473090",
+                    "76561198972087444",
+                    "76561199158296084",
+                    "76561199530648122",
+                    "76561198396212968"
+                ],
+                "rgl_teamid": 12126,
+                "score": 2,
+                "teamid": 11950
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1076,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580805,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26189,
+            "red": {
+                "players": [
+                    "76561198062993488",
+                    "76561198084810546",
+                    "76561198266321796",
+                    "76561198387375958",
+                    "76561199088864128",
+                    "76561199105462764",
+                    "76561199164671512",
+                    "76561199213704223",
+                    "76561198137786817"
+                ],
+                "rgl_teamid": 12217,
+                "score": 1,
+                "teamid": 12013
+            },
+            "time": 1707794601,
+            "title": "na.serveme.tf #546233",
+            "updated": 1707794858
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198029320773",
+                    "76561198044189319",
+                    "76561198056588258",
+                    "76561198112349210",
+                    "76561198151674993",
+                    "76561198179305695"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095641,
+            "duplicate_of": null,
+            "duration": 1739,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580804,
+            "map": "cp_gullywash_f9",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198044268609",
+                    "76561198312126442",
+                    "76561198412624652",
+                    "76561199068306212",
+                    "76561198824860459",
+                    "76561199001404376"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "time": 1707796050,
+            "title": "nyna's nook \u0b68\u0b67: BLU vs RED",
+            "updated": 1707796050
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198151075646",
+                    "76561198200883819",
+                    "76561198309862028",
+                    "76561198336898193",
+                    "76561198391550027",
+                    "76561198400875852"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095611,
+            "duplicate_of": null,
+            "duration": 938,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580803,
+            "map": "koth_bagel_rc7",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198048882285",
+                    "76561198096738991",
+                    "76561198125947844",
+                    "76561198184900753",
+                    "76561198270963428",
+                    "76561198927517471"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707794574,
+            "title": "na.serveme.tf #546364",
+            "updated": 1707794581
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197970669109",
+                    "76561198036448935",
+                    "76561198083063071",
+                    "76561198084582998",
+                    "76561198094788852",
+                    "76561198099843841"
+                ],
+                "rgl_teamid": null,
+                "score": 5,
+                "teamid": null
+            },
+            "demoid": null,
+            "duplicate_of": null,
+            "duration": 1462,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580802,
+            "map": "cp_sunshine",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198065575278",
+                    "76561198065591942",
+                    "76561198072411295",
+                    "76561198143627778",
+                    "76561198170627647",
+                    "76561198400517324"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707795894,
+            "title": "Team Fortress 2: FISHY vs BLU",
+            "updated": 1707795894
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198017914809",
+                    "76561198085095003",
+                    "76561198116542339",
+                    "76561198124380112",
+                    "76561198210572481",
+                    "76561198271915998"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095609,
+            "duplicate_of": null,
+            "duration": 1227,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580800,
+            "map": "koth_bagel_rc8",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198122375328",
+                    "76561198389268114",
+                    "76561198839291253",
+                    "76561199162583201",
+                    "76561198141026844",
+                    "76561198885528098"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707794503,
+            "title": "na.serveme.tf #546330",
+            "updated": 1707794505
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198022636756",
+                    "76561198025267071",
+                    "76561198051003187",
+                    "76561198064271337",
+                    "76561198136593625",
+                    "76561198142893003",
+                    "76561198170063974",
+                    "76561198214584609",
+                    "76561198374769204"
+                ],
+                "rgl_teamid": 12256,
+                "score": 2,
+                "teamid": 12256
+            },
+            "demoid": 1095608,
+            "duplicate_of": null,
+            "duration": 628,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580799,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26181,
+            "red": {
+                "players": [
+                    "76561198016095410",
+                    "76561198034620567",
+                    "76561198042209721",
+                    "76561198058753054",
+                    "76561198095923905",
+                    "76561198105613110",
+                    "76561198137641129",
+                    "76561198977212642",
+                    "76561199231993886"
+                ],
+                "rgl_teamid": 12024,
+                "score": 0,
+                "teamid": 12024
+            },
+            "time": 1707794493,
+            "title": "na.serveme.tf #546365",
+            "updated": 1707795455
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198009590555",
+                    "76561198019155825",
+                    "76561198036433950",
+                    "76561198081980837",
+                    "76561198094289091",
+                    "76561198122658119",
+                    "76561198176547317",
+                    "76561199143903489",
+                    "76561199477395799"
+                ],
+                "rgl_teamid": 12310,
+                "score": 2,
+                "teamid": 12310
+            },
+            "demoid": 1095606,
+            "duplicate_of": null,
+            "duration": 738,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580797,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26186,
+            "red": {
+                "players": [
+                    "76561197984047460",
+                    "76561198025202462",
+                    "76561198056547335",
+                    "76561198065349185",
+                    "76561198087562051",
+                    "76561198945464014",
+                    "76561198147441830",
+                    "76561197991437061",
+                    "76561198258997104"
+                ],
+                "rgl_teamid": 12143,
+                "score": 0,
+                "teamid": 12143
+            },
+            "time": 1707794475,
+            "title": "na.serveme.tf #546325",
+            "updated": 1707795457
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561197987164008",
+                    "76561198043894570",
+                    "76561198044690674",
+                    "76561198087957579",
+                    "76561198189718467",
+                    "76561198382966092",
+                    "76561198386339252",
+                    "76561198833348537",
+                    "76561198373703835"
+                ],
+                "rgl_teamid": 12044,
+                "score": 0,
+                "teamid": 5616
+            },
+            "demoid": 1095607,
+            "duplicate_of": null,
+            "duration": 427,
+            "format": "highlander",
+            "league": "rgl",
+            "logid": 3580796,
+            "map": "koth_proot_b6c-alt2",
+            "matchid": 26171,
+            "red": {
+                "players": [
+                    "76561198046901995",
+                    "76561198154294800",
+                    "76561198357313490",
+                    "76561198413604994",
+                    "76561198856538058",
+                    "76561198385624950",
+                    "76561198294278902",
+                    "76561198323000455",
+                    "76561198185076285"
+                ],
+                "rgl_teamid": 12018,
+                "score": 1,
+                "teamid": 12018
+            },
+            "time": 1707794474,
+            "title": "na.serveme.tf #546311",
+            "updated": 1707794567
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198051743607",
+                    "76561198119679320",
+                    "76561198120789856",
+                    "76561198148357768",
+                    "76561198154072948",
+                    "76561198169261069"
+                ],
+                "rgl_teamid": null,
+                "score": 2,
+                "teamid": null
+            },
+            "demoid": 1095642,
+            "duplicate_of": null,
+            "duration": 1769,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580794,
+            "map": "cp_metalworks_f5",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561197962808987",
+                    "76561198045838834",
+                    "76561198068686187",
+                    "76561198172421881",
+                    "76561198236109724",
+                    "76561198847863686"
+                ],
+                "rgl_teamid": null,
+                "score": 1,
+                "teamid": null
+            },
+            "time": 1707796095,
+            "title": "swiftyservers.com: RED vs BLU",
+            "updated": 1707796098
+        },
+        {
+            "blue": {
+                "players": [
+                    "76561198062801366",
+                    "76561198091840968",
+                    "76561198116706099",
+                    "76561198126252583",
+                    "76561198214461775",
+                    "76561198307516731",
+                    "76561199023495206"
+                ],
+                "rgl_teamid": null,
+                "score": 3,
+                "teamid": null
+            },
+            "demoid": 1095626,
+            "duplicate_of": null,
+            "duration": 1060,
+            "format": "sixes",
+            "league": null,
+            "logid": 3580791,
+            "map": "koth_bagel_rc5",
+            "matchid": null,
+            "red": {
+                "players": [
+                    "76561198041017977",
+                    "76561198300888156",
+                    "76561198306912450",
+                    "76561198394787270",
+                    "76561198400381132",
+                    "76561198803095781"
+                ],
+                "rgl_teamid": null,
+                "score": 0,
+                "teamid": null
+            },
+            "time": 1707795210,
+            "title": ".gb: RED vs BLU",
+            "updated": 1707795213
+        }
+    ],
+    "next_page": "/api/v1/logs?limit=100&date_from=2024-01-01&date_to=2024-12-31&timezone=America%2FNew_York&view=players&include_dupes=no&offset=165500"
+}

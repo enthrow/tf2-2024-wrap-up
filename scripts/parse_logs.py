@@ -2,19 +2,14 @@
 Parse our unreasonably large folder of json files into something react-force-graph can use
 """
 import json
+import time
+import os
+from collections import defaultdict
 
-def get_logs_from_json(path, file_number: int = None) -> dict: 
+def get_logs_from_json(path) -> dict: 
     """
     Open a json file at a path, return its contents as a dict
-    We assume a bunch of files with a similar naming schemes, so we take a path and number and get the path that way.
-    We don't bother if one isn't defined.
     """
-    # gross but who cares we run it once
-    if file_number is not None:
-        split_path = path.split(".")
-        path = split_path[0] + str(file_number) + "." + split_path[1]
-        print(path)
-
     with open(path, 'r') as file:
         data = json.load(file)
     return data
@@ -39,63 +34,61 @@ def parse_data(log_data: dict, graph_data: dict) -> dict:
         - 6s, hl
     - maybe something sneaky to see alts we shall see its not really in the spirit of the project
     """
-    for log in log_data['logs']: # for every log
-        players = log['blue']['players'] + log['red']['players']
-        seen_players = []
-        for player in players: # for every player
-            # SOURCES STUFF
-            if not any(player in d['id'] for d in graph_data['nodes']): # if we don't have a node with this id
-                player_node = { # define a player_node dict to add to nodes
-                    "id":player,
-                    "games":1
-                    }
-                graph_data['nodes'].append(player_node) # populate it
+    nodes = graph_data["nodes"]
+    links = graph_data["links"]
 
-            # if we have a node already and just need to update it
-            else:
-                for node in graph_data['nodes']: # fuck dictionaries
-                    if node['id'] == player:
-                        node['games'] += 1
-                        break # just the first instance, there better not be multiple nodes I'll jump out a building
-        
-            # LINKS STUFF
-            for other_player in players:
-                if other_player is not player and other_player not in seen_players:
-                    # check for a link
-                    existing_link = None
-                    for link in graph_data['links']:
-                        if (link['source'] == player and link['target'] == other_player) or \
-                        (link['source'] == other_player and link['target'] == player):
-                            existing_link = link
-                            break  # stop searching once the link is found
+    # defaultdict makes my life easier
+    node_index = {node["id"]: node for node in nodes}
+    link_index = defaultdict(int)  # Track link counts using a defaultdict
 
-                    if existing_link: # add a link if 
-                        existing_link['value'] += 1
-                    else:
-                        # If no link exists, create a new one
-                        new_link = {
-                            "source": player,
-                            "target": other_player,
-                            "value": 1,
-                            "type": "default"  # don't know what to call this in the default case
-                        }
-                        graph_data['links'].append(new_link)
-            
-            seen_players.append(player)
-                        
+    for log in log_data["logs"]:
+        print(f"Parsing log {log['logid']}")
+        blue_players = log.get("blue", {}).get("players", [])
+        red_players = log.get("red", {}).get("players", [])
+
+        if blue_players is not None and red_players is not None:
+            players = blue_players + red_players
+
+            for player in players:
+                if player not in node_index:
+                    node_index[player] = {"id": player, "games": 1}
+                else:
+                    node_index[player]["games"] += 1
+
+            for i, player in enumerate(players):
+                for j in range(i + 1, len(players)):  # only consider pairs once
+                    other_player = players[j]
+                    link_key = tuple(sorted([player, other_player]))
+                    link_index[link_key] += 1
+
+    # Convert node_index and link_index back to list format
+    graph_data["nodes"] = list(node_index.values())
+    graph_data["links"] = [
+        {"source": source, "target": target, "value": value}
+        for (source, target), value in link_index.items()
+    ]
 
     return graph_data
 
 def main():
+    directory = "data/log_dumps"
+    start_time = time.time()
     graph_data = {
     "nodes": [],
     "links": []
     }
 
-    log_data = get_logs_from_json("data/test_data/example_page.json")
-    graph_data = parse_data(log_data, graph_data)
-    dump_graph_data(graph_data, "test_output.json")
+    for filename in os.listdir(directory):
+        file_path = os.path.join(directory, filename)
+        if os.path.isfile(file_path):  
+            log_data = get_logs_from_json(file_path)
+            graph_data = parse_data(log_data, graph_data)
 
+    dump_graph_data(graph_data, "data/test_data/maybe.json")
+
+    end_time = time.time()
+    runtime = end_time - start_time
+    print(f"generated graph data with {len(graph_data['nodes'])} nodes and {len(graph_data['links'])} links in {runtime} seconds")
 
 if __name__ == "__main__":
     main()
