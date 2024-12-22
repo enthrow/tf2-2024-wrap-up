@@ -8,6 +8,7 @@ import argparse
 from collections import defaultdict
 from itertools import combinations
 import networkx as nx
+import numpy as np
 
 def get_logs_from_json(path) -> dict: 
     """
@@ -21,7 +22,7 @@ def precompute_positions(graph_data):
     """
     our dataset is likely to be much too big to be rendered at runtime with react-force-graph (ask me how i know)
     for this reason we precompute coordinate data with networkx and pass that to the frontend later.
-    returns pos data
+    uses networkx's spring_layout algo. Still needs some decent tweaking. 
     """
     G = nx.Graph()
 
@@ -35,7 +36,7 @@ def precompute_positions(graph_data):
 
     # compute positions, this takes forever
     print("precomputing positions... this could take a while")
-    pos = nx.spring_layout(G, dim=3, scale=10000)
+    pos = nx.spring_layout(G, dim=3, k=None, scale=10000)
 
     # add positions
     for node_id, coordinates in pos.items():
@@ -65,6 +66,25 @@ def precompute_positions(graph_data):
     # return properly formatted positional data
     return output_data
 
+def normalize_edge_weights(graph_data):
+    """
+    lets try logarithmic scaling instead! 
+    """
+    print("normalizing edge weights")
+    weights = np.array([d['val'] for d in graph_data["links"].values()]).reshape(-1, 1)
+
+    log_weights = np.log1p(weights)
+
+    # normalize to the range [0, 1]
+    normalized_weights = (log_weights - log_weights.min()) / (log_weights.max() - log_weights.min())
+
+    # put it back in the dict as proper types
+    graph_data["links"] = {
+        key: {'val': float(val.item() if hasattr(val, "item") else val)}
+        for key, val in zip(graph_data["links"].keys(), normalized_weights)
+    }    
+    return graph_data
+
 
 def dump_graph_data(graph_data: dict, path):
     """
@@ -76,23 +96,16 @@ def dump_graph_data(graph_data: dict, path):
         json.dump(graph_data, file, indent=4)
 
 
-def parse_data(log_data: dict, graph_data: dict) -> dict:
+def parse_data(log_data: dict, graph_data: dict, gamemodes: list) -> dict:
     """
     get the players out of every log in data, populate our existing graph_data and return it.
-
-    right now this will just do games played in the same server. Long term we want additional links for:
-    - friendly team
-    - enemy team
-    - formats
-        - 6s, hl
-    - maybe something sneaky to see alts we shall see its not really in the spirit of the project
     """
     for log in log_data["logs"]:
-        print(f"parsing log data for {log["logid"]}")
+        # print(f"parsing log data for {log["logid"]}")
         blue_players = log["blue"]["players"] # no .get, its slower and my dataset always has these keys so not worried about keyerrors
         red_players = log["red"]["players"]
-        # we check that these aren"t none before trying to add them. we don"t want logs without at least 1 player on each team anyways
-        if blue_players is not None and red_players is not None:
+        # Check that its a valid log we care about. At least a player on each team, and one of the defined gamemodes
+        if blue_players is not None and red_players is not None and log["format"] in gamemodes:
             players = blue_players + red_players
             # HANDLE NODES
             for player in players:
@@ -106,29 +119,35 @@ def parse_data(log_data: dict, graph_data: dict) -> dict:
     return graph_data
             
 
-
 def main():
     parser = argparse.ArgumentParser(description='parse log pages from trends.tf for use in react-force-graph')
-    parser.add_argument('--input', type=str, help='path to directory with json formatted log pages')
-    parser.add_argument('--output', type=str, help='file path to put output json')
+    parser.add_argument("--input", type=str, help='path to directory with json formatted log pages')
+    parser.add_argument("--output", type=str, help='file path to put output json')
+    parser.add_argument("--gamemodes", type=list, default=["sixes", "highlander"],  help="gamemodes to consider")
+    parser.add_argument("-n", "--normalize", action="store_true",  help="normalize the data")
+
 
     args = parser.parse_args()
 
     input = args.input
     output = args.output
+    gamemodes = args.gamemodes
+    normalize = args.normalize
 
     start_time = time.time()
     graph_data = {
         "nodes": defaultdict(lambda: {"val": 1}),
         "links": defaultdict(lambda: {"val": 1}),
     }
-
+    print("parsing logs")
     for filename in os.listdir(input):
         file_path = os.path.join(input, filename)
         if os.path.isfile(file_path):  
             log_data = get_logs_from_json(file_path)
-            graph_data = parse_data(log_data, graph_data)
+            graph_data = parse_data(log_data, graph_data, gamemodes)
 
+    if normalize:
+        graph_data = normalize_edge_weights(graph_data)
     output_data = precompute_positions(graph_data)
     dump_graph_data(output_data, output)
 
@@ -137,12 +156,6 @@ def main():
     runtime = end_time - start_time
 
     print(f"generated graph positional data with {len(graph_data["nodes"])} nodes and {len(graph_data["links"])} links in {runtime} seconds")
-
-    most_games = max(output_data["nodes"], key=lambda node: node["val"])
-    print(f"most games played: id = {most_games['id']}, games = {most_games['val']}")
-
-    most_games_together = max(output_data["links"], key=lambda link: link["val"])
-    print(f"most games together: source = {most_games_together['source']}, target = {most_games_together['target']}, games = {most_games_together['val']}")
 
 if __name__ == "__main__":
     main()
