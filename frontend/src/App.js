@@ -1,17 +1,17 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import ForceGraph3D from 'react-force-graph-3d';
 
 const App = () => {
   const [graphData, setGraphData] = useState(null);
-  const [selectedFile, setSelectedFile] = useState('test1.json'); // Default file
+  const [selectedFile, setSelectedFile] = useState('3_pages.json'); // Default file
   const [searchValue, setSearchValue] = useState(''); // For the search input
   const graphRef = useRef(); // Reference to the graph component
 
   // List of available JSON files
   const files = [
-    { label: 'File 1', value: 'test1.json' },
-    { label: 'File 2', value: 'test2.json' },
-    { label: 'File 3', value: 'test3.json' },
+    { label: '3_pages', value: '3_pages.json' },
+    { label: '100_pages', value: '100_pages.json' },
+    { label: 'all_logs', value: 'all_logs.json' },
   ];
 
   // Load the selected JSON file
@@ -26,34 +26,41 @@ const App = () => {
     setSelectedFile(event.target.value); // Update the selected file
   };
 
+  // Unified focus function
+  const focusNode = useCallback((node) => {
+    if (!node) return;
+
+    const distance = 300; // Adjust distance as needed
+    const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
+
+    graphRef.current.cameraPosition(
+      { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, // New camera position
+      node, // Look-at the node
+      3000 // Animation duration (ms)
+    );
+  }, []);
+
+  const handleNodeClick = useCallback(
+    (node) => {
+      focusNode(node); // Focus on the clicked node
+    },
+    [focusNode]
+  );
+
   const handleSearch = () => {
     if (!graphData || !searchValue) return;
-  
+
     // Find the node by ID or name
     const node = graphData.nodes.find(
-      (n) => n.id.toString() === searchValue || n.id?.toString() === searchValue
+      (n) => n.id.toString() === searchValue || n.name?.toString() === searchValue
     );
-  
+
     if (node) {
-      // Calculate a closer zoom position
-      const distanceFactor = 1.02; // Adjust this to control zoom distance (higher = farther)
-      const closerPosition = {
-        x: node.x / distanceFactor,
-        y: node.y / distanceFactor,
-        z: node.z / distanceFactor,
-      };
-  
-      // Zoom to the node
-      graphRef.current.cameraPosition(
-        closerPosition, // Position slightly farther than the node
-        node, // Look-at the node
-        3000 // Animation duration in ms
-      );
+      focusNode(node); // Use the same focus logic for the search
     } else {
       alert('Node not found');
     }
   };
-  
 
   if (!graphData) {
     return <div>Loading...</div>;
@@ -93,19 +100,21 @@ const App = () => {
       </div>
 
       {/* Force Graph */}
-        <ForceGraph3D
-          graphData={graphData}
-          enableNodeDrag={false} // Disable dragging
-          forceEngine="d3" // Use d3 for predictable behavior
-          d3AlphaDecay={0} // Stop internal force decay
-          d3VelocityDecay={0} // Stop velocity decay
-          cooldownTicks={0} // Completely stop the layout simulation
-          nodeLabel={(node) => `${node.id}: ${node.val}`}
-          nodeVal={(node) => node.val}
-          // linkWidth={(link) => link.val / 2}
-          nodeAutoColorBy="val"        
-        />
-      </div>
+      <ForceGraph3D
+        ref={graphRef}
+        graphData={graphData}
+        enableNodeDrag={false} // Disable dragging
+        forceEngine="d3" // Use d3 for predictable behavior
+        d3AlphaDecay={0} // Stop internal force decay
+        d3VelocityDecay={0} // Stop velocity decay
+        cooldownTicks={0} // Completely stop the layout simulation
+        nodeLabel={(node) => `${node.id}: ${node.val}`}
+        nodeVal={(node) => node.val}
+        nodeAutoColorBy="val"
+        linkVisibility={false} // Do not render links
+        onNodeClick={handleNodeClick} // Attach click-to-focus
+      />
+    </div>
   );
 };
 
