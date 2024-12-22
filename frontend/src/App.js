@@ -31,7 +31,7 @@ const App = () => {
   
     // Find the node by ID or name
     const node = graphData.nodes.find(
-      (n) => n.id.toString() === searchValue || n.name?.toString() === searchValue
+      (n) => n.id.toString() === searchValue || n.id?.toString() === searchValue
     );
   
     if (node) {
@@ -93,15 +93,19 @@ const App = () => {
       </div>
 
       {/* Force Graph */}
-      <ForceGraph3D
-        ref={graphRef} // Attach the graph to the ref
-        graphData={graphData}
-        nodeAutoColorBy="group"
-        nodeLabel={(node) => `${node.name || node.id}`} // Add this for labels
-        linkDirectionalParticles={2}
-        enableNodeDrag={false} // Disable node dragging
-      />
-    </div>
+        <ForceGraph3D
+          graphData={graphData}
+          enableNodeDrag={false} // Disable dragging
+          forceEngine="d3" // Use d3 for predictable behavior
+          d3AlphaDecay={0} // Stop internal force decay
+          d3VelocityDecay={0} // Stop velocity decay
+          cooldownTicks={0} // Completely stop the layout simulation
+          nodeLabel={(node) => `${node.id}: ${node.val}`}
+          nodeVal={(node) => node.val}
+          // linkWidth={(link) => link.val / 2}
+          nodeAutoColorBy="val"        
+        />
+      </div>
   );
 };
 
