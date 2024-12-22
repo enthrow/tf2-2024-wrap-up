@@ -171,3 +171,5 @@ cython_debug/
 .pypirc
 
 # specific stuff
+data/test_data/
+frontend/public/graphs/*
