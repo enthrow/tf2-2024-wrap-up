@@ -1,23 +1,25 @@
 """
-download all of the logs for 2024 from trends.tf (thank you fortybot for letting me hug your API <3)
+download logs from trends.tf as pages of 100 logs each.
+(s/o fortybot great site)
 dump each page into a .json for later processing
 """
 import requests
 import json
 import time
+import argparse
 
-def get_logs(url = "https://trends.tf/api/v1/logs", offset = 1):
+def get_logs(start_date, end_date, timezone, get_dupes, offset):
     """
     get a page of logs from trends.tf api
     """
     url = "https://trends.tf/api/v1/logs"
     params = {
         "limit": "100",
-        "date_from": "2024-01-01",
-        "date_to": "2024-12-31",
-        "timezone": "America/New_York",
+        "date_from": start_date,
+        "date_to": end_date,
+        "timezone": timezone,
         "view": "players",
-        "include_dupes": "no",
+        "include_dupes": get_dupes,
         "offset": offset,
     }
 
@@ -30,7 +32,7 @@ def get_logs(url = "https://trends.tf/api/v1/logs", offset = 1):
         print(f"bad request: {response.status_code}")
         exit() # just so we don't get banned
 
-def dump_log_page(logs, page, output_file = "data/log_dumps/log_page"):
+def dump_log_page(logs, page, output_file):
     """
     dump json contents to a file
     """
@@ -40,17 +42,36 @@ def dump_log_page(logs, page, output_file = "data/log_dumps/log_page"):
         json.dump(logs, file, indent=4)
 
 def main():
-    offset = 4300 # to start from 0, 0 for both of these.
-    pages = 43
+    # args
+    parser = argparse.ArgumentParser(description='parse log pages from trends.tf for use in react-force-graph')
+    parser.add_argument("-sd", "--startdate", type=str, help='start date for query formatted like 2024-01-01')
+    parser.add_argument("-ed", "--enddate", type=str, help='end date for query formatted like 2024-01-01')
+    parser.add_argument("-tz", "--timezone", type=str, default="America/New_York", help='timezone in standard format for start and end times')
+    parser.add_argument("-d", "--dupes", action="store_true", help="if specified, get logs marked as duplicate from trends.tf. defaults false")
+    parser.add_argument("-o", "--offset", type=int, required=False, default=0, help="page offset. on what page of 100 logs should we start?")
+    parser.add_argument("-p", "--path", type=str, default="data/log_dumps/", help="path to dump logs to. [lognumber].json is appended to this.")
+    
+    args = parser.parse_args()
+
+    start_date = args.startdate
+    end_date = args.enddate
+    timezone = args.timezone
+    get_dupes = "yes" if args.dupes else "no" # api takes a string don't look at me
+    pages = args.offset
+    path = args.path
+
+    offset = pages * 100
     start_time = time.time()
+
+    # get all the logs
     while True:
-        logs = get_logs(offset=offset)
+        logs = get_logs(start_date=start_date, end_date=end_date, timezone=timezone, get_dupes=get_dupes, offset=offset)
         print(f"got page {pages} of logs.")
-        dump_log_page(logs, pages)
+        dump_log_page(logs, pages, path)
         if logs.get("next_page") is not None:
            pages += 1
            offset += 100
-           time.sleep(10) # i was getting rate limited even at 8 requests per minute, so go down to 6
+           time.sleep(10) # don't get rate limited, tried lower, didn't help
         else:
             end_time = time.time()
             elapsed = end_time - start_time

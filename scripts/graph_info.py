@@ -1,5 +1,6 @@
 """
 lil script to get a bunch of info about what we've generated.
+assumes a json file formatted for force-graph-3d
 just for development, I need lots of data to optimize the output/ 
 normalize values. Print some garbage, make some graphs
 """
