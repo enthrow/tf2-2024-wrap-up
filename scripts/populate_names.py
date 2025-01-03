@@ -24,7 +24,7 @@ def load_map(path) -> dict:
     """
     print("getting map from csv")
     id_name_map = {}
-    with open(path, mode='r') as file:
+    with open(path, mode='r', encoding="utf-8") as file:
         csv_reader = csv.reader(file)
         next(csv_reader) # skip header row
         for row in csv_reader:
@@ -248,7 +248,7 @@ def main():
     session = Session()
 
 
-    if not any(csv_file, rgl, etf2l, ozf):
+    if not csv_file and not rgl and not etf2l and not ozf:
         print("no method specified, not doing anything. -h for help.")
         exit()
     if not csv_file:
