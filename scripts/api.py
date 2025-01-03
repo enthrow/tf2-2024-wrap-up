@@ -255,29 +255,19 @@ class SharedGames(Resource):
 class PlayerInfo(Resource):
     def get(self, player_id):
         """
-        handle GET for detailed player data, including:
-        - Steam ID
-        - Alias
-        - Total games played
-        - Games won and lost
-        - Games played on each map
-        - Games played in each format
-        example: /players/<player_id>
+        handle GET for detailed player data
         """
         try:
-            # Query player
+            # query player
             player = session.query(Player).filter_by(id=player_id).first()
             if not player:
                 return {"error": f"Player with id {player_id} not found."}, 404
-
-            # Total games played
             total_games = (
                 session.query(PlayerGame)
                 .filter(PlayerGame.player_id == player_id)
                 .count()
             )
 
-            # Games won
             games_won = (
                 session.query(PlayerGame)
                 .join(Game, PlayerGame.game_id == Game.id)
@@ -291,7 +281,6 @@ class PlayerInfo(Resource):
                 .count()
             )
 
-            # Games lost
             games_lost = (
                 session.query(PlayerGame)
                 .join(Game, PlayerGame.game_id == Game.id)
@@ -305,7 +294,6 @@ class PlayerInfo(Resource):
                 .count()
             )
 
-            # Games tied
             games_tied = (
                 session.query(PlayerGame)
                 .join(Game, PlayerGame.game_id == Game.id)
@@ -314,7 +302,7 @@ class PlayerInfo(Resource):
                 .count()
             )
 
-            # Games played on each map
+            # games played on each map
             maps = (
                 session.query(Game.map, func.count(Game.id).label("game_count"))
                 .join(PlayerGame, PlayerGame.game_id == Game.id)
@@ -323,7 +311,7 @@ class PlayerInfo(Resource):
                 .all()
             )
 
-            # Games played in each format
+            # games played in each format
             formats = (
                 session.query(Game.format, func.count(Game.id).label("game_count"))
                 .join(PlayerGame, PlayerGame.game_id == Game.id)
@@ -332,12 +320,12 @@ class PlayerInfo(Resource):
                 .all()
             )
 
-            # Format the result
+            # format output
             result = {
                 "id": str(player.id),
                 "name": player.name,
-                "games": {
-                    "total": total_games,
+                "total_games": total_games,
+                "results": {
                     "won": games_won,
                     "lost": games_lost,
                     "tied": games_tied,
